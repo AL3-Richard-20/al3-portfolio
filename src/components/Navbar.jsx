@@ -45,12 +45,12 @@ export default function Navbar(){
                                     Services
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link to="/artworks" 
                                     className="text-dark uppercase">
                                     Artworks
                                 </Link>
-                            </li>
+                            </li> */}
                             <li>
                                 <Link to="github" 
                                     className="text-dark uppercase">
