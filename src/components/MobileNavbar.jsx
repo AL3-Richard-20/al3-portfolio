@@ -59,7 +59,7 @@ export default function MobileNavbar(){
                         </button>
                     </li> */}
                     <li className="me-2" role="presentation">
-                        <Link to="/github">
+                        <Link to="https://github.com/AL3-Richard-20" target="_blank">
                             <button 
                                 className="inline-block p-4 border-b-2 rounded-t-lg uppercase font-bold hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 white:text-gray-900 dark:text-white accent:text-white" 
                                 id="contacts-tab" 

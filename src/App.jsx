@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { BrowserRouter, Routes, Route, useRoutes } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -41,7 +41,7 @@ function App() {
             <Route path="/projects" element={<Projects />}></Route>
             <Route path="/services" element={<Services />}></Route>
             <Route path="/artworks" element={<Artworks />}></Route>
-            <Route path="/github" element={<Github />}></Route>
+            {/* <Route path="/github" element={<Github />}></Route> */}
             <Route path="*" element={<About />}></Route>
           </Routes>
           <Footer />
