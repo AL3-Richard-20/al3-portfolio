@@ -29,7 +29,7 @@ export default function Services(){
 
                     {services_arr.map((service) => (
 
-                        <div className="text-center my-2">
+                        <div className="text-center my-2" key={service.ServiceId}>
                             <div className="bg-slate-300 w-full lg:w-[300px] lg:h-[200px] mb-2"></div>
                             <p className="font-bold">{service.ServiceName}</p>
                         </div>

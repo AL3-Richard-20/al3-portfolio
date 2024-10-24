@@ -3,6 +3,8 @@ import eims_img from '../assets/images/projects/EIMS.jpg'
 import hris_img from '../assets/images/projects/HRIS.png'
 import oms_img from '../assets/images/projects/OMS.jpg'
 
+import confproj_img from '../assets/images/projects/ConfProj.png'
+
 import lng_img from '../assets/images/projects/LNGHome.png'
 
 import html_logo from '../assets/images/skills/HTML.png'
@@ -19,7 +21,7 @@ export default function Projects(){
     const projects_arr = [
         {
             "ProjectId":"1",
-            "ProjectImg":"",
+            "ProjectImg":`${confproj_img}`,
             "ProjectName":"Hold Lots Email Notification (Web Scraper)",
             "Year":"2021",
             "Company":"ON Semiconductor Phils. Inc.",
@@ -52,7 +54,7 @@ export default function Projects(){
         },
         {
             "ProjectId":"3",
-            "ProjectImg":"",
+            "ProjectImg":`${confproj_img}`,
             "ProjectName":"Material Control Item Withdrawal System",
             "Year":"2021",
             "Company":"ON Semiconductor Phils. Inc.",
