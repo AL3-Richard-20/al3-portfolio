@@ -1,7 +1,7 @@
 export default function About(){
 
     return (
-        <div className="lg:container ml-7 mr-7 pt-20">
+        <div className="animate__animated animate__fadeInUp lg:container ml-7 mr-7 pt-20">
 
             <section className="white:text-gray-900 dark:text-white">
                 <h4 className="font-bold uppercase text-2xl">😎 Ikigai</h4><br/>
@@ -15,13 +15,13 @@ export default function About(){
                 <table className="w-full">
                     <tbody>
                         <tr className="flex item-center justify-start flex-col lg:flex-row w-full">
-                            <td className="px-6 py-4 w-full"><p className="font-bold">1998</p></td>
+                            <td className="px-6 py-4 w-full lg:w-[30%]"><p className="font-bold">1998</p></td>
                             <td className="px-6 py-4 w-full">
                                 <p className="white:text-gray-500 dark:text-gray-300 accent:text-gray-300">Born in Trece Martirez, Cavite</p>
                             </td>
                         </tr>
                         <tr className="flex item-center justify-start flex-col lg:flex-row w-full">
-                            <td className="px-6 py-4 w-full"><p className="font-bold">2020</p></td>
+                            <td className="px-6 py-4 w-full lg:w-[30%]"><p className="font-bold">2020</p></td>
                             <td className="px-6 py-4 w-full">
                                 <p className="white:text-gray-500 dark:text-gray-300 accent:text-gray-300">Graduated @Cavite State University - Carmona Campus<br/>
                                 (Bachelor of Science in Information Technology)
@@ -29,7 +29,7 @@ export default function About(){
                             </td>
                         </tr>
                         <tr className="flex item-center justify-start flex-col lg:flex-row w-full">
-                            <td className="px-6 py-4 w-full"><p className="font-bold">2021 - 2022</p></td>
+                            <td className="px-6 py-4 w-full lg:w-[30%]"><p className="font-bold">2021 - 2022</p></td>
                             <td className="px-6 py-4 w-full">
                                 <p className="white:text-gray-500 dark:text-gray-300 accent:text-gray-300">Worked @ON Semiconductor Philippines Incorporated (OSPI)<br/>
                                 (Web Developer)
@@ -37,7 +37,7 @@ export default function About(){
                             </td>
                         </tr>
                         <tr className="flex item-center justify-start flex-col lg:flex-row w-full">
-                            <td className="px-6 py-4 w-full"><p className="font-bold">2022 - 2023</p></td>
+                            <td className="px-6 py-4 w-full lg:w-[30%]"><p className="font-bold">2022 - 2023</p></td>
                             <td className="px-6 py-4 w-full">
                                 <p className="white:text-gray-500 dark:text-gray-300 accent:text-gray-300">Worked @Tsukiden Electric Industries Philippines Incorporated (TEIPI)<br/>
                                 (IS Programmer / IS Technician)
@@ -45,7 +45,7 @@ export default function About(){
                             </td>
                         </tr>
                         <tr className="flex item-center justify-start flex-col lg:flex-row w-full">
-                            <td className="px-6 py-4 w-full"><p className="font-bold">2023 - Present</p></td>
+                            <td className="px-6 py-4 w-full lg:w-[30%]"><p className="font-bold">2023 - Present</p></td>
                             <td className="px-6 py-4 w-full">
                                 <p className="white:text-gray-500 dark:text-gray-300 accent:text-gray-300">Currently working @URATEX Philippines (MULTIFLEX RNC)<br/>
                                 (Application Developer)

@@ -1,7 +1,7 @@
 export default function Jumbotron(){
 
     return (
-        <div className="lg:container mx-auto pt-20">
+        <div className="animate__animated animate__flash lg:container mx-auto pt-20">
             <section>
                 <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none white:text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
