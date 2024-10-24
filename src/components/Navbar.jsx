@@ -55,7 +55,8 @@ export default function Navbar({ setThemeColor }){
                                 </Link>
                             </li> */}
                             <li>
-                                <Link to="github" 
+                                <Link to="https://github.com/AL3-Richard-20" 
+                                    target="_blank"
                                     className="text-dark uppercase">
                                     Github
                                 </Link>
