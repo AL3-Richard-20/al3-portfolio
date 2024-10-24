@@ -19,7 +19,7 @@ export default function Services(){
     ]
 
     return (
-        <div className="container mx-auto pt-20">
+        <div className="animate__animated animate__fadeInUp lg:container ml-7 mr-7 pt-20">
 
             <section className="white:text-gray-900 dark:text-white accent:text-white">
 
@@ -29,8 +29,8 @@ export default function Services(){
 
                     {services_arr.map((service) => (
 
-                        <div className="text-center mt-2 mb-2">
-                            <div className="bg-slate-300 w-[300px] h-[200px] mb-2"></div>
+                        <div className="text-center my-2">
+                            <div className="bg-slate-300 w-full lg:w-[300px] lg:h-[200px] mb-2"></div>
                             <p className="font-bold">{service.ServiceName}</p>
                         </div>
                     ))}
