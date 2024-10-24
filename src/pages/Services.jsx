@@ -23,7 +23,7 @@ export default function Services(){
 
             <section className="white:text-gray-900 dark:text-white accent:text-white">
 
-                <h4 className="font-bold uppercase text-2xl mb-10">🛠 Servicess Offered</h4>
+                <h4 className="font-bold uppercase text-2xl mb-10">🛠 Services Offered</h4>
 
                 <div className="flex item-center justify-between flex-wrap w-full">
 
