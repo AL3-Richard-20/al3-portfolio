@@ -3,6 +3,17 @@ import eims_img from '../assets/images/projects/EIMS.jpg'
 import hris_img from '../assets/images/projects/HRIS.png'
 import oms_img from '../assets/images/projects/OMS.jpg'
 
+import lng_img from '../assets/images/projects/LNGHome.png'
+
+import html_logo from '../assets/images/skills/HTML.png'
+import css_logo from '../assets/images/skills/CSS.png'
+import bs_logo from '../assets/images/skills/Bootstrap.png'
+import js_logo from '../assets/images/skills/JS.png'
+import jquery_logo from '../assets/images/skills/JQuery.png'
+import php_logo from '../assets/images/skills/php.png'
+import mysql_logo from '../assets/images/skills/MySQL.png'
+
+
 export default function Projects(){
 
     const projects_arr = [
@@ -14,27 +25,30 @@ export default function Projects(){
             "Company":"ON Semiconductor Phils. Inc.",
             "StackUsed":"WAMP",
             "StackList":[
-                "HTML/CSS/Bootstrap",
-                "PHP",
-                "MySQL",
-                "JQuery"
+                `${html_logo}`,
+                `${bs_logo}`,
+                `${jquery_logo}`,
+                `${php_logo}`,
+                `${mysql_logo}`,
             ],
             "Description":"A Lean Six Sigma Project that aims to collect (scrape) all the hold lots record from a legacy website then send an email notification to the selected employees."
         },
         {
             "ProjectId":"2",
-            "ProjectImg":"",
-            "ProjectName":"Employee Break In/Out Monitoring System",
+            "ProjectImg":`${lng_img}`,
+            "ProjectName":"Lucky Numbers Game",
             "Year":"2021",
             "Company":"ON Semiconductor Phils. Inc.",
             "StackUsed":"WAMP",
             "StackList":[
-                "HTML/CSS/Bootstrap",
-                "PHP",
-                "MySQL",
-                "JQuery"
+                `${html_logo}`,
+                `${css_logo}`,
+                `${bs_logo}`,
+                `${js_logo}`,
+                `${php_logo}`,
+                `${mysql_logo}`,
             ],
-            "Description":"This app allows the employees to scan their IDs before going in/out to spend their breaktime. The data collected here is monitored by their supervisors."
+            "Description":"This app was developed for company's christmas raffle."
         },
         {
             "ProjectId":"3",
@@ -44,10 +58,11 @@ export default function Projects(){
             "Company":"ON Semiconductor Phils. Inc.",
             "StackUsed":"WAMP",
             "StackList":[
-                "HTML/CSS/Bootstrap",
-                "PHP",
-                "MySQL",
-                "JQuery"
+                `${html_logo}`,
+                `${bs_logo}`,
+                `${jquery_logo}`,
+                `${php_logo}`,
+                `${mysql_logo}`,
             ],
             "Description":"This app records the withdrawal transaction of an item of every employee."
         },
@@ -59,10 +74,11 @@ export default function Projects(){
             "Company":"Tsukiden Electric Industries Phil. Inc.",
             "StackUsed":"WAMP",
             "StackList":[
-                "HTML/CSS/Bootstrap",
-                "PHP",
-                "MySQL",
-                "JQuery"
+                `${html_logo}`,
+                `${bs_logo}`,
+                `${jquery_logo}`,
+                `${php_logo}`,
+                `${mysql_logo}`,
             ],
             "Description": "This system was developed to automate the manual transaction of canteen's cashier and reports."
         },
@@ -74,12 +90,13 @@ export default function Projects(){
             "Company":"Tsukiden Electric Industries Phil. Inc.",
             "StackUsed":"WAMP",
             "StackList":[
-                "HTML/CSS/Bootstrap",
-                "PHP",
-                "MySQL",
-                "JQuery"
+                `${html_logo}`,
+                `${bs_logo}`,
+                `${jquery_logo}`,
+                `${php_logo}`,
+                `${mysql_logo}`,
             ],
-            "Description":"This system was developed to manage and monitor employee records. also generates an employee ID template."
+            "Description":"This system was developed to manage and monitor employee records. It also generates an employee ID template."
         },
         {
             "ProjectId":"6",
@@ -89,10 +106,11 @@ export default function Projects(){
             "Company":"Tsukiden Electric Industries Phil. Inc.",
             "StackUsed":"WAMP",
             "StackList":[
-                "HTML/CSS/Bootstrap",
-                "PHP",
-                "MySQL",
-                "JQuery"
+                `${html_logo}`,
+                `${bs_logo}`,
+                `${jquery_logo}`,
+                `${php_logo}`,
+                `${mysql_logo}`,
             ],
             "Description":"This system allows the production operator to input a number of their outputs which is collected by the system to generate a realtime graph of outputs in a timetable."
         },
@@ -104,10 +122,11 @@ export default function Projects(){
             "Company":"Tsukiden Electric Industries Phil. Inc.",
             "StackUsed":"WAMP",
             "StackList":[
-                "HTML/CSS/Bootstrap",
-                "PHP",
-                "MySQL",
-                "JQuery"
+                `${html_logo}`,
+                `${bs_logo}`,
+                `${jquery_logo}`,
+                `${php_logo}`,
+                `${mysql_logo}`,
             ],
             "Description":"This system was developed to promote transparency to each employees by letting them monitor their canteen transactions."
         },
@@ -119,10 +138,11 @@ export default function Projects(){
             "Company":"URATEX (Multiflex RNC)",
             "StackUsed":"WAMP",
             "StackList":[
-                "HTML/CSS/Bootstrap",
-                "PHP",
-                "MySQL/Postgres",
-                "JQuery"
+                `${html_logo}`,
+                `${bs_logo}`,
+                `${jquery_logo}`,
+                `${php_logo}`,
+                `${mysql_logo}`,
             ],
             "Description":"A large scale system which allows the employee to Request a quotation (RFQ), purchase request (PR) and allow the Purchasing Department to transact."
         }
@@ -131,36 +151,42 @@ export default function Projects(){
     return (
         <div className="container mx-auto pt-20">
 
-            <section>
+            <section className="white:text-gray-900 dark:text-white accent:text-white">
 
                 <h4 className="font-bold uppercase text-2xl mb-10">🏆 Projects Accomplished</h4>
 
                 { projects_arr.map((project) => (
                     
-                    <div className="flex justify-between items-center w-full mt-3 mb-3" id="project_card">
+                    <div className="flex justify-between items-center w-full mt-3 mb-3" id="project_card" key={project.ProjectId}>
 
                         {/* <div className="bg-slate-300 w-[600px] h-auto rounded-lg"></div> */}
 
-                        <img src={ project.ProjectImg } className="w-[400px] h-[200px] rounded-lg overflow" alt="" />
+                        <img src={ project.ProjectImg } loading="lazy" className="w-[400px] h-[200px] rounded-lg overflow" alt="" />
 
                         <div className="p-4 w-full text-left">
                             <h4 className="font-bold uppercase text-1xl mb-2">{ project.ProjectName } ({ project.Year })</h4>
-                            <p className="mb-2"><b>Company:</b> { project.Company }</p>
-                            <p className="mb-2"><b>Stack Used:</b> { project.StackUsed }</p>
+                            <p className="mb-2">
+                                <b>Company:</b> 
+                                <span className="white:text-gray-500 ml-2 dark:text-gray-300 accent:text-gray-300">{ project.Company }</span>
+                            </p>
+                            <p className="mb-2"><b>Description:</b></p>
+                            <p className="mb-2"><span className="white:text-gray-500 dark:text-gray-300 accent:text-gray-300"> { project.Description }</span></p>
+                            <p className="mb-2">
+                                <b>Stack Used:</b> 
+                                <span className="white:text-gray-500 ml-2">{ project.StackUsed }</span>
+                            </p>
 
-                            <ul>
+                            <div className="flex item-center">
                                 { project.StackList.map((stackitem) => (
-                                    <>
-                                        <li>{stackitem}</li>
-                                    </>
+                                    <img src={stackitem} loading="lazy" className="h-10" />
                                 )) }
-                            </ul>
+                            </div>
 
-                            <button 
+                            {/* <button 
                                 type="button" 
                                 className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 mt-4">
                                 View Details
-                            </button>
+                            </button> */}
                         </div>
 
                     </div>
