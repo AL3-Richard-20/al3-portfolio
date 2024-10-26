@@ -7,7 +7,7 @@ export default function About(){
                 <h4 className="font-bold uppercase text-2xl">😎 Ikigai</h4><br/>
                 <p className="text-justify">To develop efficient, robust, and reliable systems which makes an impact to my clients/company by making sure that the requirements defined are met.</p><br/>
                 <p className="text-justify">also, to honor, serve, and love my family.</p><br/>
-                <p className="text-justify">and most importantly, to be God's servant.</p>
+                <p className="text-justify">and most importantly, to honor God.</p>
             </section><br/><br/>
 
             <section className="white:text-gray-900 dark:text-white">
@@ -61,16 +61,11 @@ export default function About(){
                 <table>
                     <tbody>
                         <tr>
-                            <td className="px-6 py-4"><p> - Music (Composing, Playing)</p></td>
+                            <td className="px-6 py-4"><p> - Music (Composition, Playing)</p></td>
                         </tr>
                         <tr>
                             <td className="px-6 py-4">
-                                <p> - Painting (Surrealism, Contemporary)</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="px-6 py-4">
-                                <p> - Cars / Automotive</p>
+                                <p> - Painting</p>
                             </td>
                         </tr>
                         <tr>
