@@ -3,14 +3,14 @@ export default function About(){
     return (
         <div className="animate__animated animate__fadeInUp lg:container ml-7 mr-7 pt-20">
 
-            <section className="white:text-gray-900 dark:text-white">
+            <section className="white:text-gray-900 dark:text-white accent:text-white">
                 <h4 className="font-bold uppercase text-2xl">😎 Ikigai</h4><br/>
                 <p className="text-justify">To develop efficient, robust, and reliable systems which makes an impact to my clients/company by making sure that the requirements defined are met.</p><br/>
                 <p className="text-justify">also, to honor, serve, and love my family.</p><br/>
                 <p className="text-justify">and most importantly, to honor God.</p>
             </section><br/><br/>
 
-            <section className="white:text-gray-900 dark:text-white">
+            <section className="white:text-gray-900 dark:text-white accent:text-white">
                 <h4 className="font-bold uppercase text-2xl">📖 Bio</h4><br/>
                 <table className="w-full">
                     <tbody>
@@ -56,12 +56,12 @@ export default function About(){
                 </table>
             </section><br/><br/>
 
-            <section className="white:text-gray-900 dark:text-white">
+            <section className="white:text-gray-900 dark:text-white accent:text-white">
                 <h4 className="font-bold uppercase text-2xl">Things I ❤</h4><br/>
                 <table>
                     <tbody>
                         <tr>
-                            <td className="px-6 py-4"><p> - Music (Composition, Playing)</p></td>
+                            <td className="px-6 py-4"><p> - Music</p></td>
                         </tr>
                         <tr>
                             <td className="px-6 py-4">

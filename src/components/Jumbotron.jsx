@@ -23,10 +23,10 @@ export default function Jumbotron(){
                         className="mb-10 h-[200px] lg:h-[150px] text-center" 
                         onClick={ () => triggerEasterEgg()}
                         alt="" />
-                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none white:text-gray-900 dark:text-white md:text-5xl lg:text-3xl">
+                    <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none white:text-gray-900 dark:text-white accent:text-white md:text-5xl lg:text-3xl">
                         Richard del S. Altre
                     </h1>
-                    <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+                    <p className="text-lg font-normal white:text-gray-500 lg:text-xl dark:text-gray-400 accent:text-gray-400">
                         Web Developer | IT Technician | Artist 
                     </p>
                 </div>

@@ -176,7 +176,7 @@ export default function Projects(){
                                 <p className="mb-2"><span className="white:text-gray-500 dark:text-gray-300 accent:text-gray-300 text-justify"> { project.Description }</span></p>
                                 <p className="mb-2">
                                     <b>Stack Used:</b> 
-                                    <span className="white:text-gray-500 ml-2">{ project.StackUsed }</span>
+                                    <span className="white:text-gray-500 dark:text-gray-500 accent:text-gray-500 ml-2">{ project.StackUsed }</span>
                                 </p>
 
                                 <div className="flex item-center">
