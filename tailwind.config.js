@@ -14,9 +14,6 @@ export default {
   },
   plugins: [
     plugin(function({addVariant}) {
-      // here is your CSS selector - could be anything
-      // in this case it is `.theme` element
-      // with `.theme--red` class (both present)
       addVariant('white', '.white &')
       addVariant('dark', '.dark &')
       addVariant('accent', '.accent &')
