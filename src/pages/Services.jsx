@@ -3,7 +3,7 @@ export default function Services(){
     const services_arr = [
         {
             "ServiceId":"1",
-            "ServiceName":"Web Development",
+            "ServiceName":"Web Design",
             "ServiceImg":""
         },
         {
@@ -13,7 +13,7 @@ export default function Services(){
         },
         {
             "ServiceId":"3",
-            "ServiceName":"Web App Infrastructure",
+            "ServiceName":"Web App Development",
             "ServiceImg":""
         }
     ]

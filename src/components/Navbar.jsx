@@ -1,12 +1,7 @@
 import { Link } from "react-router-dom"
+import NavbarLogo from "./NavbarLogo"
 
-import al3_logo from '../assets/images/Logo_1_V1_Icon.png'
-import al3_logo_txt from '../assets/images/Logo_1_Lettering.png'
-
-import al3_logo_dark from '../assets/images/Logo_1_V2_Icon.png'
-import al3_logo_txt_dark from '../assets/images/Logo_1_Lettering(White).png'
-
-export default function Navbar({ setThemeColor }){
+export default function Navbar({ themeColor, setThemeColor }){
 
     return (    
         <div>
@@ -17,11 +12,7 @@ export default function Navbar({ setThemeColor }){
                     <Link to="/about" 
                         className="flex items-center justify-between lg:space-x-3 lg:ml-0">
 
-                        <img src={ al3_logo } className="h-9 white:block dark:hidden" alt="AL3 Logo" />
-                        <img src={ al3_logo_txt } className="w-15 h-5 white:block dark:hidden ml-3" alt="AL3 Logo2" />
-
-                        <img src={ al3_logo_dark } className="h-9 white:hidden dark:block" alt="AL3 Logo" />
-                        <img src={ al3_logo_txt_dark } className="w-15 h-5 white:hidden dark:block ml-3" alt="AL3 Logo2" />
+                        <NavbarLogo themeColor={themeColor} />
 
                     </Link>
 
