@@ -4,7 +4,7 @@ import tailwindcss_logo from '../assets/images/skills/Tailwind.png'
 export default function Footer(){
 
     return (
-        <div className="bg-white white:bg-zinc-800 mt-10 white:text-white dark:text-dark accent:text-dark">
+        <div className="white:bg-zinc-800 dark:bg-white accent:bg-white mt-10 white:text-white dark:text-dark accent:text-dark">
             <section className="animate__animated animate__fadeIn lg:container ml-7 mr-7 py-10">
 
                 <div className="flex items-center flex-col lg:flex-row justify-between">
@@ -13,7 +13,7 @@ export default function Footer(){
                         <ul>
                             <li>
                                 <span className="font-bold mr-3">Facebook:</span> 
-                                <a href="https://www.facebook.com/richarddel333/">Richard Altre</a>
+                                <a href="https://www.facebook.com/richarddel333/">Richard Del</a>
                             </li>
                             <li>
                                 <span className="font-bold mr-3">Gmail:</span> 

@@ -14,10 +14,13 @@ export default {
     extend: {},
   },
   plugins: [
-    plugin(function({addVariant}) {
-      addVariant('white', '.white &')
-      addVariant('dark', '.dark &')
-      addVariant('accent', '.accent &')
+    plugin(function({ addVariant }) {
+      // addVariant('white', '.white &')
+      // addVariant('dark', '.dark &')
+      // addVariant('accent', '.accent &')
+      addVariant('white', '.white &');
+      addVariant('dark', '.dark &');
+      addVariant('accent', '.accent &');
     })
   ],
   // darkMode: [
