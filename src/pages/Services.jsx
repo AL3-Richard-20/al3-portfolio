@@ -21,7 +21,7 @@ export default function Services(){
     return (
         <div className="animate__animated animate__fadeInUp lg:container ml-7 mr-7 pt-20">
 
-            <section className="white:text-gray-900 dark:text-white accent:text-white">
+            <section className="white:text-gray-900 graytheme:text-white accent:text-white">
 
                 <h4 className="font-bold uppercase text-2xl mb-10">🛠 Services Offered</h4>
 

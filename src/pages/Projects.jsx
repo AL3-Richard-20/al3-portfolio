@@ -153,7 +153,7 @@ export default function Projects(){
     return (
         <div className="animate__animated animate__fadeInUp lg:container ml-7 mr-7 pt-20">
 
-            <section className="white:text-gray-900 dark:text-white accent:text-white">
+            <section className="white:text-gray-900 graytheme:text-white accent:text-white">
 
                 <h4 className="font-bold uppercase text-xl lg:text-2xl mb-10">🏆 Projects Accomplished</h4>
 
@@ -170,13 +170,13 @@ export default function Projects(){
                                 <h4 className="font-bold uppercase text-1xl mb-2">{ project.ProjectName } ({ project.Year })</h4>
                                 <p className="mb-2">
                                     <b>Company:</b> 
-                                    <span className="white:text-gray-500 ml-2 dark:text-gray-300 accent:text-gray-300">{ project.Company }</span>
+                                    <span className="white:text-gray-500 ml-2 graytheme:text-gray-300 accent:text-gray-300">{ project.Company }</span>
                                 </p>
                                 <p className="mb-2"><b>Description:</b></p>
-                                <p className="mb-2"><span className="white:text-gray-500 dark:text-gray-300 accent:text-gray-300 text-justify"> { project.Description }</span></p>
+                                <p className="mb-2"><span className="white:text-gray-500 graytheme:text-gray-300 accent:text-gray-300 text-justify"> { project.Description }</span></p>
                                 <p className="mb-2">
                                     <b>Stack Used:</b> 
-                                    <span className="white:text-gray-500 dark:text-gray-500 accent:text-gray-500 ml-2">{ project.StackUsed }</span>
+                                    <span className="white:text-gray-500 graytheme:text-gray-500 accent:text-gray-500 ml-2">{ project.StackUsed }</span>
                                 </p>
 
                                 <div className="flex item-center">
@@ -193,7 +193,7 @@ export default function Projects(){
 
                                 {/* <button 
                                     type="button" 
-                                    className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 mt-4">
+                                    className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 graytheme:bg-blue-600 graytheme:hover:bg-blue-700 focus:outline-none graytheme:focus:ring-blue-800 mt-4">
                                     View Details
                                 </button> */}
                             </div>

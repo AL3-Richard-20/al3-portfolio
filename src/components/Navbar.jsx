@@ -20,7 +20,7 @@ export default function Navbar({ themeColor, setThemeColor }){
                         className="flex items-center justify-between lg:basis-1/2" 
                         id="navbar-default">
 
-                        <ul className="hidden font-medium lg:flex p-4 lg:p-0 mt-4 lg:flex-row lg:space-x-8  lg:mt-0 lg:border-0 white:text-gray-900 dark:text-white accent:text-white">
+                        <ul className="hidden font-medium lg:flex p-4 lg:p-0 mt-4 lg:flex-row lg:space-x-8  lg:mt-0 lg:border-0 white:text-gray-900 graytheme:text-white accent:text-white">
                             <li>
                                 <Link to="/about" 
                                     className="text-dark uppercase">
@@ -75,7 +75,7 @@ export default function Navbar({ themeColor, setThemeColor }){
                         <div className="flex items-center justify-end">
                             <span 
                                 className="bg-black border border-white rounded-full h-5 w-5 mr-2 cursor-pointer" 
-                                onClick={ () => { setThemeColor("dark") }}>
+                                onClick={ () => { setThemeColor("graytheme") }}>
                             </span>
                             <span 
                                 className="bg-white border border-black rounded-full h-5 w-5 ml-2 mr-2 cursor-pointer"

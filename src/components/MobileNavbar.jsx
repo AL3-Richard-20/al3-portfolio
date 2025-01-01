@@ -5,12 +5,12 @@ export default function MobileNavbar(){
     return (
         <div className="sticky top-0 backdrop-blur-lg lg:hidden z-30">
             <section>
-                <div className="lg:container ml-7 mr-7 pt-20 mb-4 border-b border-gray-200 dark:border-gray-700">
+                <div className="lg:container ml-7 mr-7 pt-20 mb-4 border-b border-gray-200 graytheme:border-gray-700">
                 <ul className="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab" data-tabs-toggle="#default-tab-content" role="tablist">
                     <li className="me-2" role="presentation">
                         <Link to="/about">
                             <button 
-                                className="inline-block p-4 border-b-2 rounded-t-lg uppercase font-bold hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 white:text-gray-900 dark:text-white accent:text-white" 
+                                className="inline-block p-4 border-b-2 rounded-t-lg uppercase font-bold hover:text-gray-600 hover:border-gray-300 graytheme:hover:text-gray-300 white:text-gray-900 graytheme:text-white accent:text-white" 
                                 id="profile-tab" 
                                 data-tabs-target="#profile" 
                                 type="button" 
@@ -23,7 +23,7 @@ export default function MobileNavbar(){
                     <li className="me-2" role="presentation">
                         <Link to="/projects">
                             <button 
-                                className="inline-block p-4 border-b-2 rounded-t-lg uppercase font-bold hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 white:text-gray-900 dark:text-white accent:text-white" 
+                                className="inline-block p-4 border-b-2 rounded-t-lg uppercase font-bold hover:text-gray-600 hover:border-gray-300 graytheme:hover:text-gray-300 white:text-gray-900 graytheme:text-white accent:text-white" 
                                 id="dashboard-tab" 
                                 data-tabs-target="#dashboard" 
                                 type="button" 
@@ -36,7 +36,7 @@ export default function MobileNavbar(){
                     <li className="me-2" role="presentation">
                         <Link to="/services">
                             <button 
-                                className="inline-block p-4 border-b-2 rounded-t-lg uppercase font-bold hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 white:text-gray-900 dark:text-white accent:text-white" 
+                                className="inline-block p-4 border-b-2 rounded-t-lg uppercase font-bold hover:text-gray-600 hover:border-gray-300 graytheme:hover:text-gray-300 white:text-gray-900 graytheme:text-white accent:text-white" 
                                 id="settings-tab" 
                                 data-tabs-target="#settings" 
                                 type="button" 
@@ -48,7 +48,7 @@ export default function MobileNavbar(){
                     </li>
                     {/* <li className="me-2" role="presentation">
                         <button 
-                            className="inline-block p-4 border-b-2 rounded-t-lg uppercase font-bold hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 white:text-gray-900 dark:text-white accent:text-white" 
+                            className="inline-block p-4 border-b-2 rounded-t-lg uppercase font-bold hover:text-gray-600 hover:border-gray-300 graytheme:hover:text-gray-300 white:text-gray-900 graytheme:text-white accent:text-white" 
                             id="contacts-tab" 
                             data-tabs-target="#contacts" 
                             type="button" 
@@ -61,7 +61,7 @@ export default function MobileNavbar(){
                     <li className="me-2" role="presentation">
                         <Link to="https://github.com/AL3-Richard-20" target="_blank">
                             <button 
-                                className="inline-block p-4 border-b-2 rounded-t-lg uppercase font-bold hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300 white:text-gray-900 dark:text-white accent:text-white" 
+                                className="inline-block p-4 border-b-2 rounded-t-lg uppercase font-bold hover:text-gray-600 hover:border-gray-300 graytheme:hover:text-gray-300 white:text-gray-900 graytheme:text-white accent:text-white" 
                                 id="contacts-tab" 
                                 data-tabs-target="#contacts" 
                                 type="button" 
