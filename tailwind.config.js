@@ -19,7 +19,7 @@ export default {
       // addVariant('dark', '.dark &')
       // addVariant('accent', '.accent &')
       addVariant('white', '.white &');
-      addVariant('dark', '.dark &');
+      // addVariant('gray', '.gray &');
       addVariant('accent', '.accent &');
     })
   ],
