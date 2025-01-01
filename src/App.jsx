@@ -32,7 +32,7 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
       <div className={themeColor}>
-        <div className="white:bg-white dark:bg-zinc-800 accent:bg-cyan-900">
+        <div className="white:bg-white graytheme:bg-zinc-800 accent:bg-cyan-900">
           <Navbar themeColor={themeColor} setThemeColor={setThemeColor} />
           <Jumbotron />
           <MobileNavbar />
