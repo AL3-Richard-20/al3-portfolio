@@ -25,9 +25,10 @@ export default function Jumbotron(){
                         alt="" />
                     <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none white:text-gray-900 graytheme:text-white accent:text-white md:text-5xl lg:text-3xl">
                         Richard del S. Altre
-                    </h1>
+                    </h1>   
                     <p className="text-lg font-normal white:text-gray-500 lg:text-xl graytheme:text-gray-400 accent:text-gray-400">
-                        Web Developer | IT Technician | Artist 
+                        {/* Web Developer | IT Technician | Artist  */}
+                        "Not good at LeetCode but I can build useful Web Apps."
                     </p>
                 </div>
             </section>

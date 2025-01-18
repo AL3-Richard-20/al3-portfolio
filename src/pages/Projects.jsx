@@ -2,6 +2,7 @@ import ccms_img from '../assets/images/projects/CCMS.jpg'
 import eims_img from '../assets/images/projects/EIMS.jpg'
 import hris_img from '../assets/images/projects/HRIS.png'
 import oms_img from '../assets/images/projects/OMS.jpg'
+import eproc_img from '../assets/images/projects/E-Procurement_Snapshot2.jpg'
 
 import confproj_img from '../assets/images/projects/ConfProj.png'
 
@@ -134,7 +135,7 @@ export default function Projects(){
         },
         {
             "ProjectId":"8",
-            "ProjectImg":"",
+            "ProjectImg":`${eproc_img}`,
             "ProjectName":"E-Procurement System",
             "Year":"2023",
             "Company":"URATEX (Multiflex RNC)",
