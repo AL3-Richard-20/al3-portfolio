@@ -23,7 +23,7 @@ function App() {
 
   // return multi_path;
 
-  const [themeColor, setThemeColor] = useState("white")
+  const [themeColor, setThemeColor] = useState("graytheme")
 
   // bg-cyan-900
   // bg-zinc-800
