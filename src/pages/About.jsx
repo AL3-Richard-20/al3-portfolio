@@ -21,6 +21,14 @@ export default function About(){
                             </td>
                         </tr>
                         <tr className="flex item-center justify-start flex-col lg:flex-row w-full">
+                            <td className="px-6 py-4 w-full lg:w-[30%]"><p className="font-bold">2017</p></td>
+                            <td className="px-6 py-4 w-full">
+                                <p className="white:text-gray-500 graytheme:text-gray-300 accent:text-gray-300">Worked @7-Eleven Philippines<br/>
+                                (Crew / Staff)
+                                </p>
+                            </td>
+                        </tr>
+                        <tr className="flex item-center justify-start flex-col lg:flex-row w-full">
                             <td className="px-6 py-4 w-full lg:w-[30%]"><p className="font-bold">2020</p></td>
                             <td className="px-6 py-4 w-full">
                                 <p className="white:text-gray-500 graytheme:text-gray-300 accent:text-gray-300">Graduated @Cavite State University - Carmona Campus<br/>
