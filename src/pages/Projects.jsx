@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 import ccms_img from '../assets/images/projects/CCMS.jpg'
 import eims_img from '../assets/images/projects/EIMS.jpg'
 import hris_img from '../assets/images/projects/HRIS.png'
@@ -18,6 +20,7 @@ import mysql_logo from '../assets/images/skills/MySQL.png'
 
 
 export default function Projects(){
+
 
     const projects_arr = [
         {
@@ -151,6 +154,24 @@ export default function Projects(){
         }
     ]
 
+    var unhovered_state = "flex flex-col lg:flex-row justify-between items-center w-full mt-0 mb-0 cursor-pointer border border-transparent white:hover:border-gray-200 graytheme:hover:border-gray-700 accent:hover:border-cyan-800 p-4"
+
+    var [project_div_className, setProjectDivClass] = useState(unhovered_state)
+
+    function onHoverHandler(){
+
+        var hover_class = " opacity-75 hover:opacity-100"
+
+        project_div_className +=hover_class
+
+        setProjectDivClass(project_div_className)
+    }
+
+    function onMouseLeaveHandler(){
+
+        setProjectDivClass(unhovered_state)
+    }
+
     return (
         <div className="animate__animated animate__fadeInUp lg:container ml-7 mr-7 pt-20">
 
@@ -158,10 +179,17 @@ export default function Projects(){
 
                 <h4 className="font-bold uppercase text-xl lg:text-2xl mb-10">🏆 Projects Accomplished</h4>
 
+                {/* ================= Category Filter ================= */}
+                {/* ================= Category Filter END ============= */}
+
                 <div>
                     { projects_arr.map((project) => (
                         
-                        <div key={project.ProjectName} className="flex flex-col lg:flex-row justify-between items-center w-full mt-3 mb-3" id="project_card">
+                        <div key={project.ProjectName} 
+                            className={ project_div_className } 
+                            id="project_card" 
+                            onMouseEnter={() => onHoverHandler() } 
+                            onMouseLeave={() => onMouseLeaveHandler() }>
 
                             {/* <div className="bg-slate-300 w-[600px] h-auto rounded-lg"></div> */}
 
