@@ -1,8 +1,29 @@
+import { useState } from "react"
 import { Link } from "react-router-dom"
+
 import NavbarLogo from "./NavbarLogo"
+
 
 export default function Navbar({ themeColor, setThemeColor }){
 
+    var navlink_unhovered_state = 'text-dark uppercase'
+
+    var [navlink_className, setProjectDivClass] = useState(navlink_unhovered_state)
+
+    function onHoverHandler(){
+
+        var hover_class = " opacity-75 hover:opacity-100"
+
+        navlink_className +=hover_class
+
+        setProjectDivClass(navlink_className)
+    }
+
+    function onMouseLeaveHandler(){
+
+        setProjectDivClass(navlink_unhovered_state)
+    }
+        
     return (    
         <div>
             <nav className="lg:container mx-auto backdrop-blur-lg fixed w-full left-0 z-50 top-0">
@@ -21,34 +42,44 @@ export default function Navbar({ themeColor, setThemeColor }){
                         id="navbar-default">
 
                         <ul className="hidden font-medium lg:flex p-4 lg:p-0 mt-4 lg:flex-row lg:space-x-8  lg:mt-0 lg:border-0 white:text-gray-900 graytheme:text-white accent:text-white">
-                            <li>
+                            <li 
+                                onMouseEnter={ onHoverHandler } 
+                                onMouseLeave={ onMouseLeaveHandler }>
                                 <Link to="/about" 
-                                    className="text-dark uppercase">
+                                    className={ navlink_className }>
                                     About
                                 </Link>
                             </li>
-                            <li>
+                            <li 
+                                onMouseEnter={ onHoverHandler } 
+                                onMouseLeave={ onMouseLeaveHandler }>
                                 <Link to="/projects" 
-                                    className="text-dark uppercase">
+                                    className={ navlink_className }>
                                     Projects
                                 </Link>
                             </li>
-                            <li>
+                            <li 
+                                onMouseEnter={ onHoverHandler } 
+                                onMouseLeave={ onMouseLeaveHandler }>
                                 <Link to="/services" 
-                                    className="text-dark uppercase">
+                                    className={ navlink_className }>
                                     Services
                                 </Link>
                             </li>
-                            {/* <li>
+                            {/* <li 
+                                onMouseEnter={ onHoverHandler } 
+                                onMouseLeave={ onMouseLeaveHandler }>
                                 <Link to="/artworks" 
-                                    className="text-dark uppercase">
+                                    className={ navlink_className }>
                                     Artworks
                                 </Link>
                             </li> */}
-                            <li>
+                            <li 
+                                onMouseEnter={ onHoverHandler } 
+                                onMouseLeave={ onMouseLeaveHandler }>
                                 <Link to="https://github.com/AL3-Richard-20" 
                                     target="_blank"
-                                    className="text-dark uppercase">
+                                    className={ navlink_className }>
                                     Github
                                 </Link>
                             </li>

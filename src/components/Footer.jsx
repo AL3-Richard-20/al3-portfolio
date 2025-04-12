@@ -19,6 +19,10 @@ export default function Footer(){
                                 <span className="font-bold mr-3">Gmail:</span> 
                                 <a href="#">monterorichard09@gmail.com</a>
                             </li>
+                            <li>
+                                <span className="font-bold mr-3">Discord:</span> 
+                                <a href="#">RD_AL3</a>
+                            </li>
                         </ul>
                     </div>
                     <div>
