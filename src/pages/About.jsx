@@ -5,7 +5,7 @@ import onsemi_pic from '../assets/images/about_images/onsemi1.jpg'
 import tsukiden_pic from '../assets/images/about_images/tsukiden1.jpg'
 import uratex_pic from '../assets/images/about_images/URATEX_Fam.jpg'
 
-export default function About({ aboutimg, setAboutImg, setModalClass, modalClassHidden, modalClassOpen }){
+export default function About({ updateAboutImg, setModalClass, modalClassOpen }){
 
     var trece_pic_img       = trece_pic
     var seveneleven_pic_img = seveneleven_pic
@@ -34,7 +34,10 @@ export default function About({ aboutimg, setAboutImg, setModalClass, modalClass
                                 <td className="px-6 py-4 w-full">
                                     <p className="opacity-75 hover:opacity-100 cursor-pointer" 
                                         title="Click mo lang po" 
-                                        onClick={ () => { setAboutImg(trece_pic_img); setModalClass(modalClassOpen) }}>
+                                        onClick={ () => { 
+                                            updateAboutImg(trece_pic_img); 
+                                            setModalClass(modalClassOpen)
+                                        }}>
                                         Born in Trece Martirez, Cavite
                                     </p>
                                 </td>
@@ -44,7 +47,10 @@ export default function About({ aboutimg, setAboutImg, setModalClass, modalClass
                                 <td className="px-6 py-4 w-full">
                                     <p className="opacity-75 hover:opacity-100 cursor-pointer"
                                         title="Click mo lang po" 
-                                        onClick={ () => { setAboutImg(seveneleven_pic_img); setModalClass(modalClassOpen) }}>
+                                        onClick={ () => { 
+                                            updateAboutImg(seveneleven_pic_img);
+                                            setModalClass(modalClassOpen) 
+                                        }}>
                                     Worked @7-Eleven Philippines<br/>
                                     (Crew / Staff)
                                     </p>
@@ -55,7 +61,10 @@ export default function About({ aboutimg, setAboutImg, setModalClass, modalClass
                                 <td className="px-6 py-4 w-full">
                                     <p className="opacity-75 hover:opacity-100 cursor-pointer" 
                                         title="Click mo lang po" 
-                                        onClick={ () => { setAboutImg(graduation_pic_img); setModalClass(modalClassOpen) }}>
+                                        onClick={ () => { 
+                                            updateAboutImg(graduation_pic_img);
+                                            setModalClass(modalClassOpen) 
+                                        }}>
                                     Graduated @Cavite State University - Carmona Campus<br/>
                                     (Bachelor of Science in Information Technology)
                                     </p>
@@ -66,7 +75,10 @@ export default function About({ aboutimg, setAboutImg, setModalClass, modalClass
                                 <td className="px-6 py-4 w-full">
                                     <p className="opacity-75 hover:opacity-100 cursor-pointer" 
                                         title="Click mo lang po" 
-                                        onClick={ () => { setAboutImg(onsemi_pic_img); setModalClass(modalClassOpen) }}>
+                                        onClick={ () => { 
+                                            updateAboutImg(onsemi_pic_img);
+                                            setModalClass(modalClassOpen) 
+                                        }}>
                                     Worked @ON Semiconductor Philippines Incorporated (OSPI)<br/>
                                     (Web Developer)
                                     </p>
@@ -77,7 +89,10 @@ export default function About({ aboutimg, setAboutImg, setModalClass, modalClass
                                 <td className="px-6 py-4 w-full">
                                     <p className="opacity-75 hover:opacity-100 cursor-pointer" 
                                         title="Click mo lang po" 
-                                        onClick={ () => { setAboutImg(tsukiden_pic_img); setModalClass(modalClassOpen) }}>
+                                        onClick={ () => { 
+                                            updateAboutImg(tsukiden_pic_img);
+                                            setModalClass(modalClassOpen) 
+                                        }}>
                                     Worked @Tsukiden Electric Industries Philippines Incorporated (TEIPI)<br/>
                                     (IS Programmer / IS Technician)
                                     </p>
@@ -88,7 +103,10 @@ export default function About({ aboutimg, setAboutImg, setModalClass, modalClass
                                 <td className="px-6 py-4 w-full">
                                     <p className="opacity-75 hover:opacity-100 cursor-pointer" 
                                         title="Click mo lang po" 
-                                        onClick={ () => { setAboutImg(uratex_pic_img); setModalClass(modalClassOpen) }}>
+                                        onClick={ () => { 
+                                            updateAboutImg(uratex_pic_img);
+                                            setModalClass(modalClassOpen) 
+                                        }}>
                                     Currently working @URATEX Philippines (MULTIFLEX RNC)<br/>
                                     (Application Developer)
                                     </p>
