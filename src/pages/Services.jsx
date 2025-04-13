@@ -1,20 +1,24 @@
+import service_webdesign from './../assets/images/services/Web_Design.jpg'
+import service_troubleshoot from './../assets/images/services/Troubleshoot.jpg'
+import service_webdev from './../assets/images/services/Web.jpg'
+
 export default function Services(){
 
     const services_arr = [
         {
             "ServiceId":"1",
             "ServiceName":"Web Design",
-            "ServiceImg":""
+            "ServiceImg":service_webdesign
         },
         {
             "ServiceId":"2",
             "ServiceName":"Computer Troubleshooting",
-            "ServiceImg":""
+            "ServiceImg":service_troubleshoot
         },
         {
             "ServiceId":"3",
             "ServiceName":"Web App Development",
-            "ServiceImg":""
+            "ServiceImg":service_webdev
         }
     ]
 
@@ -30,7 +34,8 @@ export default function Services(){
                     {services_arr.map((service) => (
 
                         <div className="text-center my-2" key={service.ServiceId}>
-                            <div className="bg-slate-300 w-full lg:w-[300px] lg:h-[200px] mb-2"></div>
+                            <img src={ service.ServiceImg } 
+                                className="bg-slate-300 w-full lg:w-[300px] lg:h-[200px] mb-2"/>
                             <p className="font-bold">{service.ServiceName}</p>
                         </div>
                     ))}
